@@ -134,8 +134,12 @@ vim.o.signcolumn = 'yes'
 -- Decrease update time
 vim.o.updatetime = 250
 
--- Set tabstop to 2
+-- Set tab settings
 vim.o.tabstop = 2
+vim.o.shiftwidth = 2
+vim.o.softtabstop = 2
+vim.o.autoindent = true
+vim.o.smartindent = true
 
 -- Decrease mapped sequence wait time
 vim.o.timeoutlen = 300
